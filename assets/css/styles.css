@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    width: 100%;
+}
+header{
+    background: #1D2024;
+    height: 7vh;
+    border-bottom: 3px solid #9d9f9f;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: #9d9f9f;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+a:hover{
+    color: #d1c2a9;
+}
+header a:nth-of-type(1){
+    position: absolute;
+    top: 2vh;
+    left: 5%;
+}
+header a:nth-of-type(2){
+    position: absolute;
+    top: 2vh;
+    left: 10%;
+}
+header a:nth-of-type(3){
+    position: absolute;
+    top: 2vh;
+    left: 40%;
+}
+header a:nth-of-type(4){
+    position: absolute;
+    top: 2vh;
+    left: 55%;
+}
+header a:nth-of-type(5){
+    position: absolute;
+    top: 2vh;
+    left: 70%;
+}
+header a:nth-of-type(6){
+    position: absolute;
+    top: 2vh;
+    left: 85%;
+}
+main{
+    background: #1D2024;
+    height: 85vh;
+    width: 100%;
+    position: relative;
+}
+h1{
+    color: #9d9f9f;
+    margin: 0;
+    width: 20%;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 45%;
+    left: 12.5%;
+}
+main a{
+    color: #ac8059;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    position: absolute;
+    top: 62%;
+    left: 15%;
+}
+img{
+    width: 20%;
+    height: 90%;
+    object-fit: cover;
+    position: absolute;
+}
+img:nth-of-type(1){
+    top: 10%;
+    right: 45%;
+}
+img:nth-of-type(2){
+    top: 10%;
+    right: 22.5%;
+}
+img:nth-of-type(3){
+    top: 10%;
+    right: 0;
+}
+footer{
+    background-color: #1D2024;
+    height: 8vh;
+    position: relative;
+}
+footer a{
+    position: absolute;
+}
+footer a:nth-of-type(1){
+    top: 40%;
+    left: 5%;
+}
+footer a:nth-of-type(2){
+    top: 40%;
+    left: 10%;
+}
+footer a:nth-of-type(3){
+    top: 40%;
+    left: 15%;
+}
+footer a:nth-of-type(4){
+    top: 15%;
+    left: 88%;
+    font-size: 1.5rem;
+    border: 2px solid #ac8059;
+    padding: 3px 10px;
+    border-radius: 50%;
+}
+footer a:nth-of-type(5){
+    top: 15%;
+    left: 92%;
+    font-size: 1.5rem;
+    border: 2px solid #ac8059;
+    padding: 3px 10px;
+    border-radius: 50%;
+}
+footer a:nth-of-type(4):hover, footer a:nth-of-type(5):hover{
+    color: #ac8059;
+}
